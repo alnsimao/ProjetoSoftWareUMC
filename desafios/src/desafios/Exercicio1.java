@@ -29,8 +29,10 @@ public class Exercicio1 {
 			}
 		} while(tentativa < 1);
 		
-		System.out.println("Você teve: "+tentativa + " tentativas\n" + " O número da máquina era: " +maquina + "\n" + "Você escolheu o número: " +jogador+ "\n" +
-				" Você "+resp + " o resultado");
+		System.out.println("Número de tentativas: " + tentativa);
+        System.out.println("Número da máquina: " + maquina);
+        System.out.println("Seu número: " + jogador);
+        System.out.println("Resultado: Você " + resp + "!");
 		
 		
 		
