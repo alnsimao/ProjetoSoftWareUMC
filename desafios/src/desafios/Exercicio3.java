@@ -27,11 +27,16 @@ public class Exercicio3 {
 			System.out.println("O valor total a ser pago vai ser: " +valorTotal);
 			break;
 		case 2: 
-			 valorTotal = valor + (valor * 0.20);
+			 valorTotal = valor + (valor * 0.10);
 			System.out.println("O valor total a ser pago vai ser: " +valorTotal);
+			break;
 		case 3: 
-			valorTotal = valor + (valor * 0.30);
+			valorTotal = valor + (valor * 0.20);
 			System.out.println("O valor total a ser pago vai ser: " +valorTotal);
+			break;
+		default:
+			System.out.println("Não tem essa opção!");
+			break;
 		}
 		
 		
