@@ -12,7 +12,7 @@ public class Principal {
 		jan.agua = sc.nextDouble();
 		System.out.println("Valor das compras do mercado: ");
 		jan.alimentacao = sc.nextDouble();
-		System.out.println("Valor da conta de luz: ");
+		System.out.println("Valor da conta de luz: \n");
 		jan.luz = sc.nextDouble();
 		
 		
@@ -23,7 +23,7 @@ public class Principal {
 		fev.agua = sc.nextDouble();
 		System.out.println("Valor das compras do mercado: ");
 		fev.alimentacao = sc.nextDouble();
-		System.out.println("Valor da conta de luz: ");
+		System.out.println("Valor da conta de luz: \n");
 		fev.luz = sc.nextDouble();
 		System.out.println("Valores das contas de janeiro\n");
 		jan.exibirConta();
@@ -31,9 +31,9 @@ public class Principal {
 		fev.exibirConta();
 		
 		if (fev.somaMes() > jan.somaMes()) {
-			System.out.println("A conta de fevereiro foi maior que a de janeiro");
+			System.out.println("\nA conta de fevereiro foi maior que a de janeiro");
 		} else {
-			System.out.println("A conta de janeiro foi maior que a de fevereiro");
+			System.out.println("\nA conta de janeiro foi maior que a de fevereiro");
 		}
 		
 		
