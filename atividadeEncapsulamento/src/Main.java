@@ -35,7 +35,7 @@ public class Main {
 
                     System.out.print("Valor unitário: ");
                     double valor = sc.nextDouble();
-                    sc.nextLine(); // Limpar buffer
+                    sc.nextLine();
 
                     if (contadorRoupas < roupas.length) {
                         roupas[contadorRoupas] = new Roupa(marca, tipo, tamanho, quantidade, valor);
